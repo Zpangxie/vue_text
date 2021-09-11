@@ -1,5 +1,5 @@
 <template>
-    <div class="demo">
+	<div class="demo">
 		<h2>学校名称：{{name}}</h2>
 		<h2>学校地址：{{address}}</h2>
 		<button @click="showName">点我提示学校名</button>	
@@ -7,7 +7,7 @@
 </template>
 
 <script>
-export default {
+	 export default {
 		name:'School',
 		data(){
 			return {
@@ -24,7 +24,7 @@ export default {
 </script>
 
 <style>
-    .demo{
-        background-color: orange;
-    }
+	.demo{
+		background-color: orange;
+	}
 </style>
