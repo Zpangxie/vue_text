@@ -8,7 +8,7 @@
 
 <script>
 //引入school组件
-import School from './components/School.vue'
+import School from '../src/components/School.vue'
 import Student from '../src/components/Student.vue'
 export default {
     name:'App',
