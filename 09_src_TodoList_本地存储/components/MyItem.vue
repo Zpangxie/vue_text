@@ -69,10 +69,8 @@
 	}
 
 	li:hover{
-		/* 鼠标悬浮效果 */
 		background-color: #ddd;
 	}
-
 	
 	li:hover button{
 		display: block;
