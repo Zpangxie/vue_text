@@ -2,7 +2,7 @@ module.exports = {
   pages: {
     index: {
       //入口
-      entry: "19_src_配置代理服务器/main.js",
+      entry: "30_src_路由的基本使用/main.js",
     },
   },
   lintOnSave: false, //关闭语法检查
@@ -14,12 +14,12 @@ module.exports = {
   devServer: {
     proxy: {
       "/demo": {
-        target: "http://localhost:3000",
+        target: "http://localhost:5000",
         pathRewrite: { "^/demo": "" },
       },
       // '/api/**/***' -> 'http://localhost:3000/api/**/***' -> 'http://localhost:3000/**/***'
       "/api": {
-        target: "http://localhost:3000",
+        target: "http://localhost:5001",
         pathRewrite: { "^/api": "" },
       },
     },
