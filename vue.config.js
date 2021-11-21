@@ -2,7 +2,7 @@ module.exports = {
   pages: {
     index: {
       //入口
-      entry: "32_src_路由的query参数/main.js",
+      entry: "19_src_配置代理服务器/main.js",
     },
   },
   lintOnSave: false, //关闭语法检查
@@ -21,6 +21,10 @@ module.exports = {
       "/api": {
         target: "http://localhost:5001",
         pathRewrite: { "^/api": "" },
+      },
+      "/3000api": {
+        target: "http://localhost:3000/api/",
+        pathRewrite: { "^/3000api": "" },
       },
     },
   },
