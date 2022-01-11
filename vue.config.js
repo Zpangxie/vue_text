@@ -2,7 +2,7 @@ module.exports = {
   pages: {
     index: {
       //入口
-      entry: "32_src_路由的query参数/main.js",
+      entry: "40_src_全局路由守卫",
     },
   },
   lintOnSave: false, //关闭语法检查
