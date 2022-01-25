@@ -2,7 +2,7 @@ module.exports = {
   pages: {
     index: {
       //入口
-      entry: "40_src_全局路由守卫",
+      entry: "./44_src_element-ui组件库/main.js",
     },
   },
   lintOnSave: false, //关闭语法检查
